@@ -1,0 +1,7 @@
+<form method="POST" action="/users/<%=user.user_id%>?_method=PUT">
+	Username: <input type="text" name="username" value="<%=user.username%>">
+	Password: <input type="text" name="password" value="<%=user.password%>">
+	Name: <input type="text" name="name" value="<%=user.name%>">
+	Email: <input type="text" name="email" value="<%=user.email%>">
+	<input type="submit">
+</form>
