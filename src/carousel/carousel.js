@@ -8,7 +8,7 @@ class Carousel extends Component {
       <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img  className="carousel-img" src="./carouselimg/freestocks.jpg" alt="First slide"/>
+            <img  className="d-block w-50" src="./carouselimg/freestocks.jpg" alt="First slide"/>
             <div className="carousel-content">
             mmmmmmm
             </div>
