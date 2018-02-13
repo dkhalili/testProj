@@ -28,6 +28,9 @@ module.exports = () => {
 				})
 			}]
 		},
+		plugins: [
+			CSSExtract
+		],
 		devServer: {
             contentBase: path.join(__dirname, 'public'),
             historyApiFallback: true,
