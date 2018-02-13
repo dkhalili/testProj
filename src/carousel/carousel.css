@@ -1,0 +1,8 @@
+.carousel-img {
+    display: inline-block;
+    width: 50% !important;
+    height: 20% !important;
+}
+.carousel-content{
+    display: inline-block;
+}

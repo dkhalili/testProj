@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Carousel from './carousel/carousel'
 
-const jsx = <p>Hello</p>;
+const jsx = <Carousel/>;
 
 ReactDOM.render(jsx, document.getElementById('app'));
