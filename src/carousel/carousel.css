@@ -1,0 +1,11 @@
+.carousel-img {
+    display: inline-block;
+    width: 45% !important;
+    height: 40% !important;
+    margin: 5%;
+}
+.carousel-content{
+    display: inline-block;
+    color: rebeccapurple;
+}
+
