@@ -12,13 +12,13 @@ module.exports = () => {
 		},
 		module: {
 			rules: [{
-				loader: 'babel-loader',
-				test: /\.js$/,
-				exclude: /node_modules/
-			}, {
+					loader: 'babel-loader',
+					test: /\.js$/,
+					exclude: /node_modules/
+				}, {
 				test: /\.s?css$/,
 				use: CSSExtract.extract({
-          use: [{
+          				use: [{
 						loader: 'css-loader',
 						options: {
 							sourceMap: true
