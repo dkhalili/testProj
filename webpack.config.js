@@ -17,13 +17,12 @@ module.exports = () => {
 				exclude: /node_modules/
 			}, {
 				test: /\.s?css$/,
-        use: CSSExtract.extract({
-          use: [
-            {
-              loader: 'css-loader',
-              options: {
-                sourceMap: true
-              }
+				use: CSSExtract.extract({
+          use: [{
+						loader: 'css-loader',
+						options: {
+							sourceMap: true
+						}
 					}]
 				})
 			}]
@@ -31,6 +30,7 @@ module.exports = () => {
 		plugins: [
 			CSSExtract
 		],
+		devtool: 'source-map',
 		devServer: {
             contentBase: path.join(__dirname, 'public'),
             historyApiFallback: true,
