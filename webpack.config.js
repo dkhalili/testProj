@@ -18,7 +18,7 @@ module.exports = () => {
 				}, {
 				test: /\.s?css$/,
 				use: CSSExtract.extract({
-          				use: [{
+					use: [{
 						loader: 'css-loader',
 						options: {
 							sourceMap: true
@@ -32,9 +32,9 @@ module.exports = () => {
 		],
 		devtool: 'source-map',
 		devServer: {
-            contentBase: path.join(__dirname, 'public'),
-            historyApiFallback: true,
-            publicPath: '/dist/'
-        }
-	}	
+			contentBase: path.join(__dirname, 'public'),
+			historyApiFallback: true,
+			publicPath: '/dist/'
+		}
+	};
 };
